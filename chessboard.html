@@ -1,0 +1,114 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Chessboard Construction</title>
+        <style>
+            body{
+                text-align: center;
+                margin-top:30px;
+            }
+            .chessboard {
+                display:grid;
+                grid-template-columns: repeat(8,60px);
+                grid-template-rows: repeat(8,60px);
+                border:1px solid black;
+                margin:20px auto;
+                width:240px;
+            }
+            .square {
+                width:60px;
+                height:60px;
+                position:relative;
+            }
+            .black {
+                background-color:grey;
+            }
+            .white {
+                background-color: white;
+            }
+            .piece {
+                position:absolute;
+                font-size: 40px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+         </style>
+        </head>
+        <body>
+            <div class="Chessboard">
+                <div class="square black"><span class="piece black-rook">♜</span></div>
+                <div class="square white"><span class="piece black-knight">♞</span></div>
+                <div class="square black"><span class="piece black-bishop">♝</span></div>
+                <div class="square white"><span class="piece black-queen">♛</span></div>
+                <div class="square black"><span class="piece black-king">♚</span></div>
+                <div class="square white"><span class="piece black-bishop">♝</span></div>
+                <div class="square black"><span class="piece black-knight">♞</span></div>
+                <div class="square white"><span class="piece black-rook">♜</span></div>
+
+                <div class="square white"><span class="piece black-pawn">♟</span></div>
+                <div class="square black"><span class="piece black-pawn">♟</span></div>
+                <div class="square white"><span class="piece black-pawn">♟</span></div>
+                <div class="square black"><span class="piece black-pawn">♟</span></div>
+                <div class="square white"><span class="piece black-pawn">♟</span></div>
+                <div class="square black"><span class="piece black-pawn">♟</span></div>
+                <div class="square white"><span class="piece black-pawn">♟</span></div>
+                <div class="square black"><span class="piece black-pawn">♟</span></div>
+
+                <div class="square black"></div>
+                <div class="square white"></div>
+                <div class="square black"></div>
+                <div class="square white"></div>
+                <div class="square black"></div>
+                <div class="square white"></div>
+                <div class="square black"></div>
+                <div class="square white"></div>
+
+                <div class="square white"></div>
+                <div class="square black"></div>
+                <div class="square white"></div>
+                <div class="square black"></div>
+                <div class="square white"></div>
+                <div class="square black"></div>
+                <div class="square white"></div>
+                <div class="square black"></div>
+
+                <div class="square black"></div>
+                <div class="square white"></div>
+                <div class="square black"></div>
+                <div class="square white"></div>
+                <div class="square black"></div>
+                <div class="square white"></div>
+                <div class="square black"></div>
+                <div class="square white"></div>
+
+                <div class="square white"></div>
+                <div class="square black"></div>
+                <div class="square white"></div>
+                <div class="square black"></div>
+                <div class="square white"></div>
+                <div class="square black"></div>
+                <div class="square white"></div>
+                <div class="square black"></div>
+
+
+                <div class="square black"><span class="piece white-pawn">♙</span></div>
+                <div class="square white"><span class="piece white-pawn">♙</span></div>
+                <div class="square black"><span class="piece white-pawn">♙</span></div>
+                <div class="square white"><span class="piece white-pawn">♙</span></div>
+                <div class="square black"><span class="piece white-pawn">♙</span></div>
+                <div class="square white"><span class="piece white-pawn">♙</span></div>
+                <div class="square black"><span class="piece white-pawn">♙</span></div>
+                <div class="square white"><span class="piece white-pawn">♙</span></div>
+
+                <div class="square white"><span class="piece white-rook">♖</span></div>
+                <div class="square black"><span class="piece white-knight">♘</span></div>
+                <div class="square white"><span class="piece white-bishop">♗</span></div>
+                <div class="square black"><span class="piece white-queen">♕</span></div>
+                <div class="square white"><span class="piece white-king">♔</span></div>
+                <div class="square black"><span class="piece white-bishop">♗</span></div>
+                <div class="square white"><span class="piece white-knight">♘</span></div>
+                <div class="square black"><span class="piece white-rook">♖</span></div>
+            </div>
+        </body>
+</html>
